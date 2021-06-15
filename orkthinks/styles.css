@@ -1,0 +1,38 @@
+h1 {
+    color: rgb(92, 177, 36);
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+nav {
+    background-color: #0e6123;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+}
+.navDropBtn {font-family: Futura, Trebuchet MS, Arial, sans-serif;}
+/* .navDropBtn:hover, .navDropBtn:focus {
+    background-color: #2980B9;
+} */
+
+.nav-dropdown {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #139925;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-dropdown a:hover {background-color: #0f751d}
+.show {display:block;}
