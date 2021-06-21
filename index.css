@@ -3,6 +3,8 @@ h1 {
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
+/* NAV STUFF */
+
 nav {
     background-color: #0e6123;
     color: white;
@@ -36,3 +38,26 @@ nav {
 
 .nav-dropdown a:hover {background-color: #0f751d}
 .show {display:block;}
+
+/* NAV STUFF END */
+
+/* POST STUFF HERE */
+.post {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+
+    width: 50%;
+}
+
+h2 {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    background: rgb(156, 11, 156);
+    border-bottom: 0px;
+    padding: none;
+}
+
+.content {
+    background: rgb(85, 6, 85);
+    border-top: 0px;
+    padding: none;
+}
+/* POST STUFF END */
