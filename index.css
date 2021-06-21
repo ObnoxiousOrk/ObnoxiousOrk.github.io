@@ -1,5 +1,7 @@
 h1 {
-    color: rgb(92, 177, 36);
+    text-align: center; 
+    background-color: rgb(131, 0, 131);
+    color: rgb(85, 6, 85);
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
