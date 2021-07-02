@@ -3,9 +3,12 @@ h1 {
     background-color: rgb(131, 0, 131);
     color: rgb(85, 6, 85);
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
-    padding: 5%;
 }
 
+#header {
+    padding: 10%;
+    width: 50%;
+}
 /* NAV STUFF */
 
 nav {
