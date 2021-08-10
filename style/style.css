@@ -92,6 +92,9 @@ header a:hover {
 }
 
 footer {
+    background: #ccc;
+    color: #162c5c;
     margin: 20px 0px;
+    padding: 5px 10px;
     clear: both;
 }
