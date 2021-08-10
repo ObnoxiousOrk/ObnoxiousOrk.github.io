@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* h1 {
+    margin: 3% 0%;
+}  */
+
+body {
+    background: #E5E5E5;
+}
+
+.header {
+    position: fixed;
+}
+
+header {
+    text-align: center;
+    background: #FCA311;
+}
+
+nav {
+    text-align: center;
+    background: #162c5c;
+    padding: 0.1px;
+    color: black;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+    background: #FCA311;
+}
+
+nav a {
+    text-decoration: none;
+    color: #162c5c;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    color: black;
+}
+
+#socials {
+    width: 30%;
+    color: #162c5c;
+    padding: 2% 5%;
+    background: #FCA311;
+    float: left;
+    clear: right;
+}
+
+#socials a {
+    text-decoration: none;
+    color: black;
+}
+
+#socials a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutme {
+    background: #FCA311;
+    color: black;
+    padding: 2%;
+    margin: 21.44px 0px;
+}
+
+#school {
+    width: 45%;
+    float: left;
+}
+
+#freetime {
+    width: 45%;
+    float: right;
+}
+
+footer {
+    background: #ccc;
+    color: #162c5c;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    clear: both;
+}
