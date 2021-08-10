@@ -1,0 +1,63 @@
+body {
+    background: #E5E5E5;
+}
+
+header {
+    text-align: center;
+    background: #FCA311;
+}
+
+nav {
+    text-align: center;
+    background: #162c5c;
+    padding: 2px;
+    color: black;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+    background: #FCA311;
+}
+
+nav a {
+    text-decoration: none;
+    color: #162c5c;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    color: black;
+}
+
+.socials {
+    /* text-align: center; */
+    width: 30%;
+    color: #162c5c;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #FCA311;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a:hover {
+    text-decoration: none;
+    color: black;
+}
