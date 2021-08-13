@@ -1,0 +1,30 @@
+p {
+    background: #FCA311;
+    padding: 5px;
+    color: black;
+}
+
+#listProjects {
+    background: #FCA311;
+    color: #162c5c;
+    margin: 5px 0px;
+    padding: 0.1px 0px;
+    width: 50%;
+}
+
+#listProjects a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#listProjects a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background: #162c5c;
+    padding: 1px 10px;
+    margin: 10px 0px;
+    /* width: 45%; */
+}
