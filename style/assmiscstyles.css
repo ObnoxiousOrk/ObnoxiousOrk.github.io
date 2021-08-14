@@ -1,0 +1,61 @@
+h2 {
+
+}
+
+#listProjects {
+    background: #FCA311;
+    color: #162c5c;
+    margin: 5px 0px;
+    padding: 0.1px 0px;
+    width: 50%;
+}
+
+#listProjects a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#listProjects a {
+    text-decoration: none;
+    color: black;
+}
+
+.moons {
+    background: #0466c8;
+    color: #E5E5E5;
+}
+
+.planets {
+    background: #002855;
+    color: #E5E5E5;
+}
+
+.tiny-planets {
+    background: #5e548e;
+    color: #E5E5E5;
+}
+
+.sos {
+    background: #be95c4;
+    color: #E5E5E5;
+}
+
+.groups {
+    background: #401f3e;
+    color: #E5E5E5;
+}
+
+#divranking {
+    background: #FCA311;
+    width: 70%;
+    margin: 22px 10%;
+    padding: 1px 5%;
+}
+
+#official-celestial-bodies-ranking {
+    background: #162c5c;
+    padding: 1px;
+    margin: 10px 1px;
+
+    text-align: center;
+}

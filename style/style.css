@@ -4,6 +4,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+* a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 /* h1 {
     margin: 3% 0%;
 }  */
@@ -36,7 +46,7 @@ nav li {
     background: #FCA311;
 }
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: #162c5c;
 }
@@ -48,7 +58,7 @@ header a {
 header a:hover {
     text-decoration: none;
     color: black;
-}
+} */
 
 .description {
     text-align: center;
@@ -56,15 +66,13 @@ header a:hover {
 }
 
 #socials {
-    width: 30%;
+    width: 40%;
     color: #162c5c;
     padding: 2% 5%;
     background: #FCA311;
-    float: left;
-    clear: right;
 }
 
-#socials a {
+/* #socials a {
     text-decoration: none;
     color: black;
 }
@@ -72,23 +80,14 @@ header a:hover {
 #socials a:hover {
     text-decoration: none;
     color: black;
-}
+} */
 
 .aboutme {
     background: #FCA311;
     color: black;
     padding: 2%;
     margin: 21.44px 0px;
-}
-
-#school {
     width: 45%;
-    float: left;
-}
-
-#freetime {
-    width: 45%;
-    float: right;
 }
 
 footer {
@@ -96,5 +95,27 @@ footer {
     color: #162c5c;
     margin: 20px 0px;
     padding: 5px 10px;
+}
+
+#footnotes {
+    background: #E5E5E5;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* .center {
+    float: center;
+    width: 70%;
+    margin: 1px 10%;
+    padding: 1px 5%;
+} */
+
+.clear {
     clear: both;
 }
