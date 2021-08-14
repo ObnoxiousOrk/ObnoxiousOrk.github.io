@@ -4,6 +4,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+* a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 /* h1 {
     margin: 3% 0%;
 }  */
@@ -36,7 +46,7 @@ nav li {
     background: #FCA311;
 }
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: #162c5c;
 }
@@ -48,7 +58,7 @@ header a {
 header a:hover {
     text-decoration: none;
     color: black;
-}
+} */
 
 .description {
     text-align: center;
@@ -62,7 +72,7 @@ header a:hover {
     background: #FCA311;
 }
 
-#socials a {
+/* #socials a {
     text-decoration: none;
     color: black;
 }
@@ -70,7 +80,7 @@ header a:hover {
 #socials a:hover {
     text-decoration: none;
     color: black;
-}
+} */
 
 .aboutme {
     background: #FCA311;
@@ -98,6 +108,13 @@ footer {
 .right {
     float: right;
 }
+
+/* .center {
+    float: center;
+    width: 70%;
+    margin: 1px 10%;
+    padding: 1px 5%;
+} */
 
 .clear {
     clear: both;
