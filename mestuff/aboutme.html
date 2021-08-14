@@ -1,6 +1,24 @@
 <html>
   <head>
     <link rel="stylesheet" href="../style/style.css">
+    <script type="text/javascript" src="../javascript/ageFinder.js"></script>
+
+    <script type="text/javascript">
+      if(window.attachEvent) {
+        window.attachEvent('onload', ageFinder);
+      } else {
+        if(window.onload) {
+          var curronload = window.onload;
+          var newonload = function(evt) {
+            curronload(evt);
+            ageFinder(evt);
+          };
+          window.onload = newonload;
+        } else {
+          window.onload = ageFinder;
+        }
+      }
+    </script>
 
     <title>About Me</title>
   </head>
@@ -24,7 +42,7 @@
     </div>
     
     <p class="aboutme left">
-        I am an 18 year old computing student from Scotland. Currently working
+        I am a(n) <span id="age">[age here, set by js]</span> year old computing student from Scotland. Currently working
         towards my Masters of computing science at St. Andrews University
         which I hope to graduate from in 2026. 
     </p>
