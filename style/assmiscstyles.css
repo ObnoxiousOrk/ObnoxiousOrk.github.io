@@ -1,0 +1,17 @@
+#listProjects {
+    background: #FCA311;
+    color: #162c5c;
+    margin: 5px 0px;
+    padding: 0.1px 0px;
+    width: 50%;
+}
+
+#listProjects a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#listProjects a {
+    text-decoration: none;
+    color: black;
+}

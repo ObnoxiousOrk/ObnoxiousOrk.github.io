@@ -87,6 +87,10 @@ footer {
     padding: 5px 10px;
 }
 
+#footnotes {
+    background: #E5E5E5;
+}
+
 .left {
     float: left;
 }
