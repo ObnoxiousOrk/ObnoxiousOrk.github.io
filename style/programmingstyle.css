@@ -32,3 +32,8 @@ h2 {
     margin: 10px 0px;
     /* width: 45%; */
 }
+
+.container img{
+    background: #FCA311;
+    padding: 10px;
+}
