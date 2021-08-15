@@ -98,7 +98,10 @@ footer {
 }
 
 #footnotes {
-    background: #E5E5E5;
+    background: #ccc;
+    color: #162c5c;
+    margin: 20px 0px;
+    padding: 5px 10px;
 }
 
 .left {
