@@ -8,6 +8,28 @@ h2 {
     color: #E5E5E5;
 }
 
+#testing {
+    border:1px solid #000000;
+    border-collapse:collapse;
+    padding:5px;
+    margin: 5px 0px;
+}
+#testing th {
+    border:1px solid #000000;
+    padding:5px;
+    background:#FCA311;
+}
+#testing td {
+    border:1px solid #000000;
+    padding:5px;
+    background:#FCA311;
+}
+
+#testing .emptytd {
+    background: #162c5c;
+    border:1px solid #162c5c;
+}
+
 #listProjects {
     background: #FCA311;
     color: #162c5c;
