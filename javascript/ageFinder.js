@@ -1,12 +1,12 @@
 function ageFinder() {
-    const today = new Date();
-    const birthday = new Date(2003, 07, 08);
-    const diffTime = Math.abs(birthday - today);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-    var age = Math.floor(diffDays/365);
-
+    var birthDate = new Date(2003, 7, 8);
+    var currentDate = new Date();
+    var age = currentDate.getFullYear() - birthDate.getFullYear();
+    var m = currentDate.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && currentDate.getDate() < birthDate.getDate())) {
+        age--;
+    }
     document.getElementById("age").innerHTML = age;
-    return age;
 }
 
 ageFinder();
